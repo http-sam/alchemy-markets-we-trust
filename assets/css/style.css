@@ -4351,11 +4351,11 @@ body {
   flex-direction: row !important;
   justify-content: center !important;
   align-items: center !important;
-  background: #000 !important;
-  color: #fff !important;
+  background: #F6A800 !important;
+  color: #000 !important;
   outline: 0 !important;
   box-shadow: none !important;
-  border: 1px solid #000 !important;
+  border: 1px solid #F6A800 !important;
   transition-duration: 0.2s !important;
 }
 
@@ -5790,7 +5790,7 @@ body {
 
 .economic-insight-hero-learn-more-button {
   max-width: 230px;
-  margin: 0 0 30px 5px;
+  margin: 0 0 30px 0;
 }
 .economic-insight-hero-learn-more-button.button-style2 {
   background: #F79D82 !important;
@@ -5933,12 +5933,47 @@ body {
   transition: all 0.5s ease;
 }
 .why-trade-asset-row .wetrust-cta a {
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 11px 25px;
+  border-radius: 5px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   text-decoration: none;
   transition: inherit;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #000 !important;
+  color: #fff !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border: 1px solid #000 !important;
+  transition-duration: 0.2s !important;
 }
 .why-trade-asset-row .wetrust-cta a:hover {
-  text-decoration: underline;
-  color: #F6A800;
+  outline: 0 !important;
+  background: #fff !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15) !important;
+  -webkit-backdrop-filter: blur(150px) !important;
+          backdrop-filter: blur(150px) !important;
+  color: #000 !important;
 }
 
 .why-trade-asset-col {
