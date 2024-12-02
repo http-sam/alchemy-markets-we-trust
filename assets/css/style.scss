@@ -360,7 +360,7 @@ h6 {
             font-weight: 600;
             font-size: 16px;
             line-height: 20px;
-            color: #fff;
+            color: #000 !important;
             text-align: center;
             text-decoration: none;
             vertical-align: middle;
@@ -381,11 +381,10 @@ h6 {
             flex-direction: row !important;
             justify-content: center !important;
             align-items: center !important;
-            background: #000 !important;
-            color: #fff !important;
+            background: #F6A800 !important;
             outline: 0 !important;
             box-shadow: none !important;
-            border: 1px solid #000 !important;
+            border: 1px solid #F6A800 !important;
             transition-duration: 0.2s !important;
 
             &:hover {
